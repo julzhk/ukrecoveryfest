@@ -5,7 +5,7 @@ from .base import *
 DEBUG = True
 
 # Add your site's domain name(s) here.
-ALLOWED_HOSTS = ['www.ukrecoveryfilmfestival.com']
+ALLOWED_HOSTS = ['*']
 
 # To send email from the server, we recommend django_sendmail_backend
 # Or specify your own email backend such as an SMTP server.
