@@ -219,6 +219,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 DEFAULT_FILE_STORAGE = 'ukrecoveryfest.settings.storage_backends.MediaStorage'
 
+AWS_DEFAULT_ACL = None
 
 AWS_AUTO_CREATE_BUCKET = False
 MEDIA_URL = '/media/'
