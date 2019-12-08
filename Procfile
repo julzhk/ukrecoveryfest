@@ -1,0 +1,1 @@
+web: gunicorn ukrecoveryfest.wsgi --log-file -
