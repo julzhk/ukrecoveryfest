@@ -20,6 +20,7 @@ class ArticlePage(CoderedArticlePage):
         verbose_name = 'Article'
         ordering = ['-first_published_at', ]
 
+    search_db_include = True
     # Only allow this page to be created beneath an ArticleIndexPage.
     parent_page_types = ['website.ArticleIndexPage']
 
@@ -35,6 +36,7 @@ class ArticleIndexPage(CoderedArticleIndexPage):
     class Meta:
         verbose_name = 'Article Landing Page'
 
+    search_db_include = True
     # Override to specify custom index ordering choice/default.
     index_query_pagemodel = 'website.ArticlePage'
 
@@ -51,6 +53,7 @@ class FormPage(CoderedFormPage):
     class Meta:
         verbose_name = 'Form'
 
+    search_db_include = True
     template = 'coderedcms/pages/form_page.html'
 
 
@@ -76,6 +79,7 @@ class WebPage(CoderedWebPage):
     General use page with featureful streamfield and SEO attributes.
     Template renders all Navbar and Footer snippets in existance.
     """
+    search_db_include = True
     class Meta:
         verbose_name = 'Web Page'
 
