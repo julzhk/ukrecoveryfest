@@ -22,7 +22,7 @@ django-taggit==1.1.0
 django-toolbelt==0.0.1
 django-treebeard==4.3
 django_sendmail_backend
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 docutils==0.15.2
 draftjs-exporter==2.1.7
 future==0.18.2
