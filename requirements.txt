@@ -47,7 +47,7 @@ static3==0.7.0
 tapioca-disqus==0.1.2
 tapioca-wrapper==0.5.3
 Unidecode==1.1.1
-urllib3==1.25.7
+urllib3==1.25.8
 wagtail-cache==0.5.2
 wagtail-import-export==0.2
 wagtail==2.7.2
